@@ -10,7 +10,6 @@ body {
   background-color: #f2f4f7;
   min-width: 320px;
   max-width: 750px;
-  height: 1200px;
   margin: 0 auto;
 }
 a {
@@ -43,6 +42,11 @@ a {
   flex-direction: column;
   flex: 33.33%;
   align-items: center;
+}
+.wrap .nav .items img {
+  width: 1.866667rem;
+  height: 1.866667rem;
+  background-size: 50%;
 }
 .wrap .nav .items:nth-child(-n+3) {
   margin-bottom: 0.826667rem;
