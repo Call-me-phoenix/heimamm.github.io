@@ -51,6 +51,12 @@ a {
   font-size: 0.333333rem;
   color: #707070;
 }
+.wrap .go {
+  margin: 0 0.133333rem 0 0.24rem;
+}
+.wrap .go img {
+  width: 100%;
+}
 .content {
   margin-top: 0.133333rem;
   padding: 0.533333rem 0.32rem;
