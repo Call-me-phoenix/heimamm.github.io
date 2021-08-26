@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?pqc732');
+    src:  url('../fonts/icomoon.eot?pqc732#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?pqc732') format('truetype'),
+      url('../fonts/icomoon.woff?pqc732') format('woff'),
+      url('../fonts/icomoon.svg?pqc732#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  body{
+    background-color: #f2f4f7;
+    min-width: 320px;
+    max-width: 750px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+@media screen and (min-width:750px) {
+    html{
+        font-size: 75px !important;
+    }
+}
+.wrap{
+    background-color: #fff;
+    padding-bottom: .573333rem;
+    .header{
+        text-align: center;
+        height: 1.066667rem;
+        font-size: .466667rem;
+        line-height: 1.066667rem;
+        color: #1c1c1c;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        padding: .8rem 0 .6rem 0;
+        .items{
+            display: flex;
+            flex-direction: column;
+            flex:33.33%;
+            align-items: center;
+            &:nth-child(-n+3){
+                margin-bottom: .826667rem;
+            }
+            span{
+                font-size: .333333rem;
+                color: #707070;
+            }
+        }
+    }
+}  
+.content{
+    margin-top: .133333rem;
+    padding: .533333rem .32rem;
+    background-color: #fff;
+    .con-hd{
+        display: flex;
+        justify-content:space-between ;
+        margin-bottom: .453333rem;
+        h4{
+            margin: 0;
+            font-size: .373333rem;
+            color: #333333;
+            .icon{
+                vertical-align: middle;
+            }
+        }
+        .more{
+            font-size: .293333rem;
+            color: #999999;
+        }
+    }
+.get-job-focus{
+    position: relative;
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        width: 7.2rem;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+  
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        transition: 300ms;
+        transform: scale(0.8);
+        opacity: 0.4;
+        a{
+            width: 4.506667rem;
+            height: 5.013333rem;
+            img{
+                width: 100%;
+            }
+        }
+        p{
+            width: 4.506667rem;
+            font-size: .333333rem;
+            margin-top: .32rem;
+            color: #333333;
+        }
+      }
+      .swiper-slide-active,.swiper-slide-duplicate-active{
+        transform: scale(1);
+        z-index: 1;
+        opacity: 1;
+      }
+}
+}
+// 学习充电模块轮播图
+.study{
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        padding: .133333rem;
+      }
+  
+      .swiper-slide {
+        width: 4rem;
+        height:4.533333rem;
+        border-radius: .133333rem;
+        font-size: 18px;
+        background: #fff;
+        box-shadow: 0 0px 10px rgb(0 0 0 / 10%);
+        /* Center slide text vertically */
+        img{
+            display: block;
+            width: 100%;
+        }
+        h5{
+            font-size: .346667rem;
+            margin: .266667rem 0;
+            padding: 0 .133333rem;
+            font-weight: 400;
+        }
+        p{
+            font-size: .346667rem;
+            color: #ff4400;
+            padding: 0 .133333rem;
+        }
+      }
+}
+footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: .266667rem;
+
+    .item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+        img{
+    width: .52rem;
+    height: .546667rem;
+}
+span{
+    font-family: icomoon;
+    font-size: .48rem;
+    color: #333333;
+}
+        p{
+    font-size: .293333rem;
+    color: #333333;
+    margin: .133333rem 0 0 0;
+}
+&:hover span,
+&:hover p{
+    color: rgb(66, 141, 212);
+}
+    }
+}
